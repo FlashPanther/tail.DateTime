@@ -873,7 +873,7 @@
                 d = this.dt.querySelector(".calendar-datepicker");
 
             // Calc Tooltip Rect
-            e.cssText = "opacity:0;visibility:hidden;";
+            e.cssText = "opacity:0;visibility:hidden;z-index:20;";
             t.id = "tooltip-" + id + "-" + time;
             d.appendChild(t);
             w = t.offsetWidth; h = t.offsetHeight;
